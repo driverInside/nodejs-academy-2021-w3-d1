@@ -31,3 +31,8 @@ Content-Type: application/json
 GET http://localhost:3000/protected/resource
 Content-Type: application/json
 Authorization: Bearer {{token}}
+
+###
+GET http://localhost:3000/profile
+Content-Type: application/json
+Authorization: Bearer {{token}}
